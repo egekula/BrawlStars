@@ -1,0 +1,299 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-icon-bs {
+        width: 91px;
+        height: 50px;
+    }
+    
+    .nav-link:hover {
+        color: #2d85f3 !important;
+    }
+    /* .img-fluid {
+    max-width: 100%;
+    height: auto;
+} */
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        min-height: 87vh;
+    }
+    
+    .header-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 87vh;
+        background-image: url("https://supercell.com/_next/static/media/aboutus_hero.64e1d553.webp");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .header-download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: rgba(0, 0, 0, 0.632);
+        min-height: 87vh;
+        background-image: url("https://supercell.com/images/1a5b69311180a4a1c374e10556941f05/1681/hero_bg_brawlstars.a385872a.webp");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .overlay {
+        background-color: rgba(0, 0, 0, .6);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .video-bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -10;
+    }
+    
+    .news-href {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    
+    .card-href {
+        text-decoration: none;
+    }
+    
+    .card-video {
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 4px 15px 11px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    
+    .card-video:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .testimonial-logo {
+        width: 100px;
+        height: 55px;
+    }
+    
+    .testimonial {
+        background: rgb(255, 0, 223);
+        background: linear-gradient(45deg, rgba(255, 0, 223, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(119, 0, 209, 1) 50%, rgba(0, 4, 255, 1) 100%);
+    }
+    /* .header {
+    background: url("https://supercell.com/images/1a5b69311180a4a1c374e10556941f05/1681/hero_bg_brawlstars.a385872a.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 87vh;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+} */
+    
+    .content-part {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .news-header {
+        color: #ea02ff;
+    }
+    
+    .stay-up-date {
+        background: url("https://supercell.com/images/21f696d382b894ed8a35f8718be2d872/1281/bg_gamesocial_brawlstars.4762f735.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .social-media-logo {
+        font-size: 1.5rem;
+    }
+    
+    .social-media-logo:hover {
+        color: #ea02ff;
+        cursor: pointer;
+    }
+    
+    .footer-usermenu {
+        border-top: solid 1px rgb(149, 149, 149);
+        font-size: 0.9rem;
+    }
+    
+    .address span {
+        display: block;
+        align-items: center;
+        color: rgb(149, 149, 149) !important;
+    }
+    
+    .modal-header {
+        background: rgb(255, 0, 223);
+        background: linear-gradient(45deg, rgba(255, 0, 223, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(119, 0, 209, 1) 50%, rgba(0, 4, 255, 1) 100%);
+    }
+    
+    @media screen and (max-width:768px) {
+        .content-stay {
+            text-align: center !important;
+        }
+        .social-media-logo-content {
+            justify-content: center !important;
+        }
+    }
+    
+    .footer-elements {
+        text-decoration: none !important;
+        color: #ffffff !important;
+    }
+    
+    .pause-button {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    
+    .information-p {
+        line-height: 1.7;
+    }
+    
+    .history-inf {
+        color: #2d85f3;
+    }
+    
+    @media(max-width:768px) {
+        .history-p-1 {
+            border-bottom: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+        .history-p-2 {
+            border-bottom: 1px solid #ccc;
+        }
+        .history-p-3 {
+            border-right: 1px solid #ccc;
+        }
+    }
+    
+    @media(min-width:768px) {
+        .history-p-1 {
+            border-right: 1px solid #ccc;
+            border-bottom: none;
+        }
+        .history-p-2 {
+            border-right: 1px solid #ccc;
+            border-bottom: none;
+        }
+        .history-p-3 {
+            border-right: 1px solid #ccc;
+        }
+    }
+    
+    .knife {
+        width: 80%;
+        max-width: 1800px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-60%);
+        max-height: 700px;
+        object-fit: contain
+    }
+    
+    .about-us {
+        position: relative;
+        max-height: 600px;
+        height: 25vw
+    }
+    
+    .hero-char {
+        position: absolute;
+        right: 0;
+        top: min(20vw, 600px);
+        height: 30vw;
+        z-index: -1;
+    }
+    
+    .culture-links {
+        text-decoration: none;
+    }
+    
+    .culture-links:hover {
+        color: #9f9f9f;
+    }
+    
+    .message-icon {
+        height: 60px !important;
+        width: 60px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    .bi-download {
+        font-size: 3rem;
+    }
+    
+    .download-icon {
+        height: 62px !important;
+        width: 62px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    .download-icon-border {
+        height: 68px !important;
+        width: 68px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .greater-logo {
+        font-size: 0.7rem;
+        align-items: center;
+        font-weight: 1000;
+    }
+    
+    .card-carousel-a {
+        position: relative;
+    }
+    
+    .card-carousel-a::after {
+        content: "»";
+        position: absolute;
+        font-weight: bolder;
+    }
